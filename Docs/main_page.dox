@@ -1,0 +1,16 @@
+/**
+* @mainpage Game Of Life
+* @author Toya1800
+* @image html img.png
+*
+* @section Description
+* This project is about a simulation of a game called "Game of Life" which simulates a population.
+* It is represented by a grid of cells which either are dead or alive. Then depending
+* on the different rules some cells can have different roles etc.
+* Every "round" results in a cell dying, staying dead, living or become alive.
+* It Depends on the other cells around it with things like overpopulation or underpopulation.
+*
+* @subsection Other resources
+* Se @ref Member Members
+* Se https://trello.com/b/ECKXO2PJ/projektdt042golst1900toya1800 Trello link.
+*/

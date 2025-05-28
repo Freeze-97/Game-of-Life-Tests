@@ -1,0 +1,8 @@
+project(Terminal)
+cmake_minimum_required(VERSION 3.1)
+set (CMAKE_CXX_STANDARD 11)
+add_library(Terminal-STATIC STATIC terminal.cpp)
+add_library(Terminal-SHARED SHARED EXCLUDE_FROM_ALL terminal.cpp)
+add_library(Terminal ALIAS Terminal-STATIC)
+set_target_properties(Terminal-STATIC PROPERTIES OUTPUT_NAME ${PROJECT_NAME})
+set_target_properties(Terminal-SHARED PROPERTIES OUTPUT_NAME ${PROJECT_NAME})
