@@ -1,8 +1,8 @@
-# 🧬 Game of Life – C++ Project
+# Game of Life – C++ Project
 
 This is a modular and extensible implementation of **Conway's Game of Life**, written in modern C++. The project is structured around core components like cells, populations, and rules of existence, and is complemented by unit tests for validation.
 
-## 🧪 Testing
+## Testing
 
 This project includes **unit tests** for the following components:
 
@@ -10,7 +10,7 @@ This project includes **unit tests** for the following components:
 - **Rules of Existence** – Each rule implementation (Conway, Erik, Von Neumann) has isolated tests to verify proper life/death behavior.
 - **Rule Factory** – Tests that the factory correctly instantiates rules based on user input or configuration.
 
-## 🌱 Rule Variants
+## Rule Variants
 The following rules of existence are implemented and can be selected dynamically:
 
 - Conway – Traditional Game of Life rules
@@ -19,7 +19,7 @@ The following rules of existence are implemented and can be selected dynamically
 
 - Von Neumann – Based on Von Neumann neighborhood
 
-## 📄 Documentation
+## Documentation
 
 Documentation is available in the `Docs/` folder and can be generated using **Doxygen**.
 
@@ -30,7 +30,7 @@ cd Docs
 doxygen Doxyfile
 ```
 
-## ▶️ How to Build and Run
+## How to Build and Run
 
 1. Clone and initialize submodules:
 ```bash
